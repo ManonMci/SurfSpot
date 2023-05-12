@@ -9,7 +9,7 @@ import android.widget.ListView
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
-    private lateinit var listView: ListView
+    //private lateinit var listView: ListView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -18,11 +18,11 @@ class MainActivity : AppCompatActivity() {
         replaceFragment(Home())
 
         // Définir la variable listView en référençant l'élément de la vue avec l'identifiant "list_view"
-        listView = findViewById<ListView>(R.id.list_view)
+        /*listView = findViewById<ListView>(R.id.list_view)
 
         // Créer la liste de spots
-        val names = listOf("Bells Beach", "Uluwatu", "Benzaï pipeline", "Nazaré",)
-        val locations = listOf("Australie", "Indonésie", "Hawaï", "Portugal")
+        val names = listOf("Bells Beach", "Uluwatu", "Benzaï pipeline", "Nazaré", "Biarritz", "Barra de la Cruz", "CloudBreak", "Rincon")
+        val locations = listOf("Australie", "Indonésie", "Hawaï", "Portugal", "France", "Mexique", "Îles des Fidji", "Puerto Rico")
         val images = listOf(R.drawable.`spot2`, R.drawable.spot2, R.drawable.spot2, R.drawable.`spot2`, R.drawable.`spot2`, R.drawable.spot2, R.drawable.spot2, R.drawable.`spot2`)
 
         val spotList = mutableListOf<Spot>()
@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
 
         // Créer une instance de SpotAdapter et l'attacher à ListView
         val spotAdapter = SpotAdapter(this, spotList)
-        listView.adapter = spotAdapter
+        listView.adapter = spotAdapter*/
 
         binding.bottomNavigationView.setOnItemSelectedListener {
 
