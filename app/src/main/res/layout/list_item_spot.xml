@@ -23,15 +23,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="18sp"
-            android:textStyle="bold"
-            android:text="Paroroca, Amazone"/>
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/spot_location"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="14sp"
-            android:text="Brésil"/>
+            android:textSize="14sp" />
 
     </LinearLayout>
 
